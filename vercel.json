@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://ypm-api.vercel.app//:match*"
+    }
+  ]
+}
